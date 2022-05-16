@@ -76,16 +76,18 @@ em {
 .hero > .hero-content em {
     color: #fff;
     font-family: 'Sacramento', cursive;
-    font-size: 250%;
+    font-size: 300%;
     font-weight: normal;
     position: relative;
-    left: 20%;
     transform-origin: left;
     transform: rotate(-15deg);
+    bottom: -20px;
 }
 @media (min-width: 768px) {
     .hero > .hero-content em {
         font-size: 350%;
+        left: 20%;
+        bottom: 0;
     }
 }
 
@@ -95,6 +97,15 @@ nav {
     --font-weight: 700;
 }
 
+nav ul {
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    nav ul {
+        flex-wrap: nowrap;
+    }
+}
 
 
 nav.sticky {
