@@ -7,7 +7,7 @@ function setNav() {
     placeholder.style.height = nav.getBoundingClientRect().height + "px";
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function() {
     nav = document.querySelector("#nav");
     setNav();
     window.addEventListener('scroll', function() {
