@@ -22,7 +22,12 @@ p, h4 { --color: #fff;
 
 h2 {
     --font-family: 'Bitter', cursive;
-    --font-size: 2.3rem;
+    --font-size: 1.8rem;
+}
+@media (min-width: 768px) {
+    h2 {
+        --font-size: 2.3rem;
+    }
 }
 
 .text-center {
@@ -99,11 +104,13 @@ nav {
 
 nav ul {
     flex-wrap: wrap;
+    --font-size: 60%;
 }
 
 @media (min-width: 768px) {
     nav ul {
         flex-wrap: nowrap;
+        --font-size: 100%;
     }
 }
 
