@@ -1,6 +1,7 @@
 :root {    
     --font-family: 'Work Sans', sans-serif;
     --font-weight: 300;
+    --font-size: 1rem;
 }
 body {
     
@@ -51,11 +52,16 @@ h2 {
 
 em {
     display: block;
-    color: #e02121;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 350%;
-    font-weight: bold;
-    text-shadow:  0 0 2px #2c1733;
+    color: #f0b8de;
+    font-family: 'Sacramento', cursive;
+    font-size: 250%;
+}
+
+@media (min-width: 768px) {
+    em {
+        font-size: 350%;
+    }
+    
 }
 
 .hero > .hero-content {
