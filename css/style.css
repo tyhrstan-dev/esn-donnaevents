@@ -90,15 +90,10 @@ em {
     font-size: 300%;
     font-weight: normal;
     position: relative;
-    transform-origin: left;
-    transform: rotate(-15deg);
-    bottom: -20px;
 }
 @media (min-width: 768px) {
     .hero > .hero-content em {
         font-size: 350%;
-        left: 20%;
-        bottom: 0;
     }
 }
 
