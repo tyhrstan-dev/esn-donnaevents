@@ -21,6 +21,12 @@ p, h4 { --color: #fff;
     --font-family: 'Bitter', cursive;
 }
 
+body > footer {
+    padding: calc(var(--spacing) / 2) 0;
+    font-family: 'Bitter', cursive;
+}
+
+
 h2 {
     --font-family: 'Bitter', cursive;
     --font-size: 1.8rem;
